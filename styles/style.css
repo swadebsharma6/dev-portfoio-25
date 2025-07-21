@@ -17,6 +17,7 @@
   background-image: url("/img/developer.png"), url("/img/header_bg.png");
   background-position: top left, bottom right;
   background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
 .contact-btn {
   padding: 10px 30px;
@@ -97,4 +98,70 @@
 
 .banner-container .img-container img {
   width: 584px;
+}
+
+.about-container {
+  width: 1030px;
+  margin: 0 auto 100px;
+  background-color: rgb(255, 248, 243);
+  border-radius: 5px;
+}
+
+.about-container .about {
+  width: 744px;
+  padding: 40px 30px 40px;
+  margin: 0 auto;
+}
+
+.about-container .about-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.about-container .about-des {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.about-container .about-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Tech styles */
+.tec-info-container {
+  width: 818px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tec-info-container .tech-title {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.tec-info-container .tec-desc {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
 }
