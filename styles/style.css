@@ -185,7 +185,7 @@
 }
 
 .tec-container .skill {
-  width: 240px;
+  /* width: 240px; */
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   padding: 10px;
   border-radius: 5px;
@@ -217,8 +217,6 @@
 
 .experience-container {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 10px;
 }
 
@@ -311,4 +309,77 @@
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0%;
+}
+
+.hide {
+  display: none;
+}
+
+/* Responsive  */
+
+@media screen and (max-width: 576px) {
+  /* skills related response */
+  body {
+    margin: 5px;
+  }
+  .tec-container,
+  .tec-info-container,
+  .banner-container,
+  .nav-container {
+    width: 100%;
+  }
+
+  .nav-container {
+    justify-content: start;
+  }
+
+  .resume-container {
+    width: 100%;
+  }
+
+  .about-container {
+    width: 100%;
+  }
+
+  .about-container .about-info {
+    flex-wrap: wrap;
+  }
+
+  .about-container .about {
+    width: 100%;
+    padding: 10px;
+  }
+  .banner-container .img-container img {
+    width: 100%;
+  }
+
+  .footer-container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .skills-container,
+  .experience-container,
+  .banner-container {
+    flex-direction: column;
+    margin: 5px;
+  }
+  .tec-container .skill {
+    width: 100%;
+    border: 1px solid gray;
+  }
+
+  /*  */
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .skills-container {
+    flex-wrap: wrap;
+    margin: 5px;
+  }
+
+  .tec-container .skill {
+    width: 100%;
+    border: 1px solid gray;
+  }
 }
